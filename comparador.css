@@ -1,3 +1,13 @@
-h1{
-font-size: 36px;
+body{
+    margin: auto;
+    }
+nav{
+    background-color: yellow;
+    outline: 4px solid black;
+}
+ul
+{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: auto;
 }
