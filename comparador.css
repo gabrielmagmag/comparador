@@ -5,7 +5,12 @@ body{
     
 nav{
     background-color: yellow;
-    outline: 4px solid black;
+    min-height: 60px;
+    display: grid;
+}
+nav h1
+{
+    margin: auto;
 }
 ul
 {
@@ -14,7 +19,7 @@ ul
     margin: auto;
 }
 main{
-    overflow: horizontal
+    overflow: horizontal;
     max-width: 90vw;
     width: 400px;
     }
