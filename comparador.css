@@ -19,10 +19,13 @@ ul
     margin: auto;
 }
 main{
-    overflow: horizontal;
-    max-width: 90vw;
-    width: 400px;
+    overflow: auto;
+    scroll-snap-type: inline;
     }
+main > ul > li
+{
+    scroll-snap-align: center;
+}
     
 img{
     max-width: 80px;
