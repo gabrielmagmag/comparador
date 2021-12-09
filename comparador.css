@@ -1,6 +1,8 @@
 body{
-    margin: auto;
+    margin: 0;
+    padding: 0;
     }
+    
 nav{
     background-color: yellow;
     outline: 4px solid black;
@@ -9,5 +11,20 @@ ul
 {
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: auto;
+}
+main{
+    overflow: horizontal
+    max-width: 90vw;
+    width: 400px;
+    }
+    
+img{
+    max-width: 80px;
+}
+
+.item{
+    list-style: none;
+    padding: 0;
     margin: auto;
 }
