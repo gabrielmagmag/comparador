@@ -20,11 +20,13 @@ ul
 }
 main{
     overflow: auto;
-    scroll-snap-type: inline;
+    scroll-snap-type: inline mandatory;
     }
 main > ul > li
 {
     scroll-snap-align: center;
+    scroll-margin: 1em;
+    min-width: 300px;
 }
     
 img{
@@ -35,4 +37,5 @@ img{
     list-style: none;
     padding: 0;
     margin: auto;
+    margin-bottom: 4em;
 }
